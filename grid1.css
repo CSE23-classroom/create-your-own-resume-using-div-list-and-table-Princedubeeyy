@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, serif;
+    background-color: #F4E6D3;
+}
+
+header {
+    background-color: #F4E6D3;
+    padding: 20px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 5px;
+    padding: 10px;
+}
+
+aside, .box {
+    background-color: #E6D2B8;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #F4E6D3;
+    text-align: center;
+    padding: 30px;
+    font-size: 22px;
+    font-weight: bold;
+}
